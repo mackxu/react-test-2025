@@ -1,4 +1,4 @@
-## 延迟加载组件
+## 依赖 React.lazy 实现组件延迟加载
 
 ```jsx
 const CompA = React.lazy(() => import("./LazyComp"));
